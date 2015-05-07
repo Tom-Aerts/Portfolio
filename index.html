@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>Portfolio - Tom Aerts</title>
+        <link rel="stylesheet" href="Styles/opmaak.css">
+        <link rel="stylesheet" href="Styles/media-queries.css">
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="icon" href="pics/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div class="titel">
+                <h1 class="normal">Portfolio - Tom Aerts</h1>
+                <img src="pics/logo-big.png" alt="Tom Aerts" class="mobile">
+            </div>
+            <div class="header">
+                <ul>
+                    <li>
+                        <a href="#home" id="homelink">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about" id="aboutlink">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#projects" id="projectlink">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="#blog" id="bloglink">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#cv" id="cvlink">CV</a>
+                    </li>
+                    <li>
+                        <a href="#kennis" id="kennislink">KENNIS</a>
+                    </li>
+                    <li>
+                        <a href="#contact" id="contactlink">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div id="home"></div>
+            <section id="homenrm">
+                <article class="home">
+                    <h1>HOME</h1>
+                </article>
+                <div class="firstbox">
+                    <article class="text"> 
+                        <h1>Beginpagina</h1>
+                    </article>
+                </div>
+            </section>
+            <div class="firstline" id="about"></div>
+            <section id="aboutnrm">
+                <article class="about">
+                    <h1>ABOUT</h1>
+                </article>
+                <div class="secondbox">
+                    <article class="text"> 
+                        <h1>Meer uitleg</h1>
+                    </article>
+                </div>
+            </section>
+            <div class="secondline" id="projects"></div>
+            <section id="projectsnrm">
+                <article class="project">
+                    <h1>PROJECTS</h1>
+                </article>
+                <div class="firstbox">
+                    <article class="text"> 
+                        <h1>Project voorstelling</h1>
+                    </article>
+                </div>
+            </section>
+            <div class="firstline" id="blog"></div>
+            <section id="blognrm">
+                <article class="blog">
+                    <h1>BLOG</h1>
+                </article>
+                <div class="secondbox">
+                    <article class="text"> 
+                        <h1>Blogs worden hier geplaatst</h1>
+                    </article>
+                </div>
+            </section>
+            <div class="secondline" id="cv"></div>
+            <section id="cvnrm">
+                <article class="cv">
+                    <h1>CV</h1>
+                </article>
+                <div class="firstbox">
+                    <article class="text"> 
+                        <h1>CV laten zien</h1>
+                    </article>
+                </div>
+            </section>
+            <div class="firstline" id="kennis"></div>
+            <section id="kennisnrm">
+                <article class="kennis">
+                    <h1>KENNIS</h1>
+                </article>
+                <div class="secondbox">
+                    <article class="text"> 
+                        <h1>Belangrijkste kennis hier plaatsen</h1>
+                    </article>
+                </div>
+            </section>
+            <div class="secondline" id="contact"></div>
+            <section id="contactnrm">
+                <article class="contact">
+                    <h1>CONTACT</h1>
+                </article>
+                <div class="firstbox">
+                    <article class="text"> 
+                        <h1>Contact formulier/Hoe contacteren</h1>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h1 class="footer">FOOTER</h1>
+        </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('a[href*=#]:not([href=#])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html,body').animate({
+                        scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

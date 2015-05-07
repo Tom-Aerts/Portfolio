@@ -1,0 +1,300 @@
+body {
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    background-color: lightgreen;
+    width: 100%;
+}
+header {
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    opacity: 0.8;
+    position: fixed;
+}
+.normal {
+    display: block;
+    color: #174029
+}
+.mobile {
+    display: none;
+    height: 100%;
+}
+.header {
+    float: right;
+    width: 1015px;
+    z-index: 0;
+    margin-top: -2px;
+}
+.titel {
+    float: left;
+    line-height: 0px;
+    z-index: 0;
+}
+ul {
+    list-style: none;
+    display: inline;
+}
+a {
+    text-decoration: none;
+}
+#homelink{
+    float: left;
+    width: 85px;
+    height: 0%;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    position: static;
+    color: #174029;
+    padding-left: 7px;
+    margin-top: -16px;
+}
+#aboutlink {
+    float: left;
+    width: 100px;
+    height: 0%;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    position: static;
+    color: #174029;
+    padding-left: 7px;
+    margin-top: -16px;
+}
+#projectlink {
+    float: left;
+    width: 135px;
+    height: 0%;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    position: static;
+    color: #174029;
+    padding-left: 7px;
+    margin-top: -16px;
+}
+#bloglink {
+    float: left;
+    width: 80px;
+    height: 0%;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    position: static;
+    color: #174029;
+    padding-left: 7px;
+    margin-top: -16px;
+}
+#cvlink {
+    float: left;
+    width: 45px;
+    height: 0%;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    position: static;
+    color: #174029;
+    padding-left: 7px;
+    margin-top: -16px;
+}
+#kennislink {
+    float: left;
+    width: 105px;
+    height: 0%;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    position: static;
+    color: #174029;
+    padding-left: 7px;
+    margin-top: -16px;
+}
+#contactlink {
+    float: left;
+    width: 135px;
+    height: 0%;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    position: static;
+    color: #174029;
+    padding-left: 7px;
+    margin-top: -16px;
+}
+.home {
+    width: 110px;
+    background-color: darkgrey;
+    height: 0%;
+    border-right: 40px solid #769999;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    position: static;
+    color: #174029;
+}
+.about {
+    width: 120px;
+    height: 0%;
+    border-right: 40px solid #2F4F4F;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    margin-top: -91px;
+    position: static;
+    color: #174029;
+}
+.project {
+    width: 170px;
+    height: 0%;
+    border-right: 40px solid #769999;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    margin-top: -50px;
+    position: static;
+    color: #174029;
+}
+.blog {
+    width: 95px;
+    height: 0%;
+    border-right: 40px solid #2F4F4F;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    margin-top: -50px;
+    position: static;
+    color: #174029;
+}
+.cv {
+    width: 55px;
+    height: 0%;
+    border-right: 40px solid #769999;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    margin-top: -50px;
+    position: static;
+    color: #174029;
+}
+.kennis {
+    width: 130px;
+    height: 0%;
+    border-right: 40px solid #2F4F4F;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    margin-top: -50px;
+    position: static;
+    color: #174029;
+}
+.contact {
+    width: 165px;
+    height: 0%;
+    border-right: 40px solid #769999;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    margin-top: -50px;
+    position: static;
+    color: #174029;
+}
+section {
+    height: 100%;
+    margin-bottom: -19px;
+    width: 100%;
+}
+.firstbox { 
+    border-top: 3px solid #5EFFA4;      
+    background-color: #2F4F4F;
+    height: 93%;
+    width: 100%;
+    color: #769999;
+}
+.secondbox {
+    border-top: 3px solid #5EFFA4;      
+    background-color: #769999;
+    height: 93%;
+    width: 100%;
+    color: #174029
+
+}
+.text {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+.firstline {
+    height: 80px;
+    background-color: #2F4F4F;
+    margin-bottom: -72px;
+    width: 100%;
+}
+.secondline {
+    height: 80px;
+    background-color: #769999;
+    width: 100%;
+}
+#homenrm {
+    background-color: #769999;
+    width: 100%;
+}
+#aboutnrm {
+    background-color: #2F4F4F;
+    margin-top: 50px;
+    width: 100%;
+}
+#projectsnrm {
+    background-color: #769999;
+    margin-top: -74px;
+    width: 100%;
+}
+#blognrm {
+    background-color: #2F4F4F;
+    width: 100%;
+}
+#cvnrm {
+    background-color: #769999;
+    width: 100%;
+    margin-top: -73px
+}
+#kennisnrm {
+    background-color: #2F4F4F;
+    margin-top: -73px;
+    width: 100%;
+}
+#contactnrm {
+    background-color: #769999;
+    width: 100%;
+    margin-top: -73px;
+}
+#home {
+    height: 40px;
+    margin-bottom: -32px;
+    background-color: #769999;
+    width: 100%;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    height: 60px;
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    height: 60px;
+    margin-bottom: auto;
+    line-height: 60px;
+    width: 100%;
+    margin-top: 0px;
+}

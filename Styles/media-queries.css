@@ -1,0 +1,94 @@
+@media only screen and (max-width:1350px) {
+    .normal {
+        font-size: 1.8rem;
+    }
+    .header {
+    width: 919px;
+    }
+    #homelink{
+        width: 75px;
+        font-size: 1.5rem;
+    }
+    #aboutlink {
+        width: 87px;
+        font-size: 1.5rem;
+    }
+    #projectlink {
+        width: 117px;
+        font-size: 1.5rem;
+    }
+    #bloglink {
+        width: 67px;
+        font-size: 1.5rem;
+    }
+    #cvlink {
+        width: 37px;
+        font-size: 1.5rem;
+    }
+    #kennislink {
+        width: 90px;
+        font-size: 1.5rem;
+   }
+    #contactlink {
+        width: 117px;
+        font-size: 1.5rem;
+    }
+    .footer {
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width:1250px) {
+    .normal {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+@media only screen and (max-width:1000px) {
+    .header {
+    width: 809px;
+    }
+    #homelink{
+        width: 60px;
+        font-size: 1.2rem;
+    }
+    #aboutlink {
+        width: 70px;
+        font-size: 1.2rem;
+    }
+    #projectlink {
+        width: 95px;
+        font-size: 1.2rem;
+    }
+    #bloglink {
+        width: 55px;
+        font-size: 1.2rem;
+    }
+    #cvlink {
+        width: 30px;
+        font-size: 1.2rem;
+    }
+    #kennislink {
+        width: 75px;
+        font-size: 1.2rem;
+    }
+    #contactlink {
+        width: 95px;
+        font-size: 1.2rem;
+    }
+    .footer {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:900px) {
+    .header {
+        display: none;
+    }
+    header {
+        height: 60px;
+    }
+    #home{
+        height: 60px;
+    }
+}
