@@ -42,7 +42,8 @@
         display: none;
     }
     .mobile {
-        display: inline-block
+        display: inline-block;
+        height: 40px;
     }
     .tablet {
         display: inline-block;
@@ -87,9 +88,12 @@
     .footer {
         font-size: 1.5rem;
     }
+    .mobile {
+        display: inline-block;
+        height: 60px;
+    }
     .tablet {
         padding-top: 2px;
-        padding-left: 10px;
         font-size: 2.4rem
     }
     .mobi-header {
@@ -97,26 +101,89 @@
     }
     .header {
         display: none;
+        height: auto;
+        width: 100%
     }
     
     header {
-        height: 60px;
+        min-height: 60px;
     }
     #home{
         height: 60px;
     }
     .firstline {
-    height: 100.5px;
-    background-color: #2F4F4F;
-    margin-bottom: -72px;
-    width: 100%;
-}
-.secondline {
-    height: 101px;
-    background-color: #769999;
-    width: 100%;
-}
+        height: 100.5px;
+        background-color: #2F4F4F;
+        margin-bottom: -72px;
+        width: 100%;
+    }
+    .secondline {
+        height: 101px;
+        background-color: #769999;
+        width: 100%;
+    }
+    .header li { 
+        float: none; 
+        display: block; 
+        margin-left: auto;
+    }
     
+    #homelink{
+    width: 96%;
+        font-size: 2rem;
+        padding: 0px;
+        margin-top: -17px;
+        height: 0px;
+        border-bottom: 42px solid #5EFFA4;
+    }
+    #aboutlink {
+    width: 100%;
+        margin-top: 2px;
+        font-size: 2rem;
+        padding: 0px;
+        height: 0px;
+        border-bottom: 42px solid #5EFFA4;
+    }
+    #projectlink {
+        width: 100%;
+        margin-top: 2px;
+        font-size: 2rem;
+        padding: 0px;
+        height: 0px;
+        border-bottom: 42px solid #5EFFA4;
+    }
+    #bloglink {
+    width: 100%;
+        margin-top: 2px;
+        font-size: 2rem;
+        padding: 0px;
+        height: 0px;
+        border-bottom: 42px solid #5EFFA4;
+    }
+    #cvlink {
+    width: 100%;
+        margin-top: 2px;
+        font-size: 2rem;
+        padding: 0px;
+        height: 0px;
+        border-bottom: 42px solid #5EFFA4;
+    }
+    #kennislink {
+    width: 100%;
+        margin-top: 2px;
+        font-size: 2rem;
+        padding: 0px;
+        height: 0px;
+        border-bottom: 42px solid #5EFFA4;
+    }
+    #contactlink {
+    width: 100%;
+        margin-top: 2px;
+        font-size: 2rem;
+        padding: 0px;
+        height: 0px;
+        border-bottom: 42px solid #5EFFA4;
+    }
 }
 @media only screen and (max-width:900px) {
     
