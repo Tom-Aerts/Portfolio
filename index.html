@@ -12,6 +12,10 @@
             <div class="titel">
                 <h1 class="normal">Portfolio - Tom Aerts</h1>
                 <img src="pics/logo-big.png" alt="Tom Aerts" class="mobile">
+                <h1 class="tablet">Portfolio</h1>
+            </div>
+            <div class="mobi-header">
+                <div id="nav-toggle"><span></span></div>
             </div>
             <div class="header">
                 <ul>
@@ -138,5 +142,9 @@
                 });
             });
         </script>
+        <script>$('#nav-toggle').on('click', function() {
+  $(this).toggleClass('active');
+  $('.header').stop().slideToggle();
+});</script>
     </body>
 </html>
