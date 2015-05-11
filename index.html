@@ -17,28 +17,28 @@
             <div class="mobi-header">
                 <div id="nav-toggle"><span></span></div>
             </div>
-            <div class="header">
+            <div class="header" id="header-menu-container">
                 <ul>
                     <li>
-                        <a href="#home" id="homelink"><b>HOME</b></a>
+                        <a href="#home" id="homelink" class="pop"><b>HOME</b></a>
                     </li>
                     <li>
-                        <a href="#about" id="aboutlink"><b>ABOUT</b></a>
+                        <a href="#about" id="aboutlink" class="pop"><b>ABOUT</b></a>
                     </li>
                     <li>
-                        <a href="#projects" id="projectlink"><b>PROJECTS</b></a>
+                        <a href="#projects" id="projectlink" class="pop"><b>PROJECTS</b></a>
                     </li>
                     <li>
-                        <a href="#blog" id="bloglink"><b>BLOG</b></a>
+                        <a href="#blog" id="bloglink" class="pop"><b>BLOG</b></a>
                     </li>
                     <li>
-                        <a href="#cv" id="cvlink"><b>CV</b></a>
+                        <a href="#cv" id="cvlink" class="pop"><b>CV</b></a>
                     </li>
                     <li>
-                        <a href="#kennis" id="kennislink"><b>KENNIS</b></a>
+                        <a href="#kennis" id="kennislink" class="pop"><b>KENNIS</b></a>
                     </li>
                     <li>
-                        <a href="#contact" id="contactlink"><b>CONTACT</b></a>
+                        <a href="#contact" id="contactlink" class="pop"><b>CONTACT</b></a>
                     </li>
                 </ul>
             </div>
@@ -142,9 +142,17 @@
                 });
             });
         </script>
-        <script>$('#nav-toggle').on('click', function() {
-  $(this).toggleClass('active');
-  $('.header').stop().slideToggle();
-});</script>
+        <script>
+            $('#nav-toggle').on('click', function() {
+                $(this).toggleClass('active');
+                $('.header').stop().slideToggle();
+            });
+            $('.pop').each(function(){
+                $(this).on('click', function(){
+                    $('#nav-toggle').toggleClass('active');
+                    $('.header').stop().slideToggle();
+                });
+            });
+        </script>
     </body>
 </html>

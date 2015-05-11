@@ -4,6 +4,7 @@
     }
     .header {
     width: 919px;
+        height: 0px;
     }
     #homelink{
         width: 75px;
@@ -51,6 +52,7 @@
     }
     .header {
     width: 809px;
+        height: 0px;
     }
     #homelink{
         width: 60px;
@@ -102,7 +104,8 @@
     .header {
         display: none;
         height: auto;
-        width: 100%
+        width: 100%;
+        margin-top: 0px
     }
     
     header {
@@ -129,60 +132,68 @@
     }
     
     #homelink{
-    width: 96%;
+    width: auto;
         font-size: 2rem;
         padding: 0px;
-        margin-top: -17px;
         height: 0px;
         border-bottom: 42px solid #5EFFA4;
+        float: none;
+        margin-top: -2px
+
     }
     #aboutlink {
-    width: 100%;
+    width: auto;
         margin-top: 2px;
         font-size: 2rem;
         padding: 0px;
         height: 0px;
         border-bottom: 42px solid #5EFFA4;
+        float: none;
     }
     #projectlink {
-        width: 100%;
+        width: auto;
         margin-top: 2px;
         font-size: 2rem;
         padding: 0px;
         height: 0px;
         border-bottom: 42px solid #5EFFA4;
+        float: none;
     }
     #bloglink {
-    width: 100%;
+    width: auto;
         margin-top: 2px;
         font-size: 2rem;
         padding: 0px;
         height: 0px;
         border-bottom: 42px solid #5EFFA4;
+        float: none;
     }
     #cvlink {
-    width: 100%;
+    width: auto;
         margin-top: 2px;
         font-size: 2rem;
         padding: 0px;
         height: 0px;
         border-bottom: 42px solid #5EFFA4;
+        float: none;
     }
     #kennislink {
-    width: 100%;
+    width: auto;
         margin-top: 2px;
         font-size: 2rem;
         padding: 0px;
         height: 0px;
         border-bottom: 42px solid #5EFFA4;
+        float: none;
     }
     #contactlink {
-    width: 100%;
+        width: auto;
         margin-top: 2px;
         font-size: 2rem;
         padding: 0px;
         height: 0px;
         border-bottom: 42px solid #5EFFA4;
+        float: none;
     }
 }
 @media only screen and (max-width:900px) {
