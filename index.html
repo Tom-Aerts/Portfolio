@@ -23,9 +23,6 @@
                         <a href="#home" id="homelink" class="pop"><b>HOME</b></a>
                     </li>
                     <li>
-                        <a href="#about" id="aboutlink" class="pop"><b>ABOUT</b></a>
-                    </li>
-                    <li>
                         <a href="#projects" id="projectlink" class="pop"><b>PROJECTS</b></a>
                     </li>
                     <li>
@@ -35,7 +32,7 @@
                         <a href="#cv" id="cvlink" class="pop"><b>CV</b></a>
                     </li>
                     <li>
-                        <a href="#kennis" id="kennislink" class="pop"><b>KENNIS</b></a>
+                        <a href="#referentie" id="referentielink" class="pop"><b>REFERENTIES</b></a>
                     </li>
                     <li>
                         <a href="#contact" id="contactlink" class="pop"><b>CONTACT</b></a>
@@ -51,71 +48,64 @@
                 </article>
                 <div class="firstbox">
                     <article class="text"> 
-                        <h1>Beginpagina</h1>
+                        <h1 class="tussentitel">Profiel</h1>
+                        <img src="pics/profiel.jpg" alt="Tom Aerts" class="profiel">
+                        <p>Hallo ik ben Tom Aerts. <br>Ik ben 21 jaar, woonachtig te Hoboken. <br>En een student van het zevende jaar Se-n-Se (Secundair na Secundair) Commercieel Webverkeer en Netwerkbeheer. <br>Na dit jaar wil ik gaan werken als helpdesk/servicedesk medewerker<br>of als front-end web developer/web developer</p>
+                        <h1 class="tussentitel">About me</h1>
+                        <p>Voor ik deze richting ging doen heb ik dierenzorg gestudeerd, <br>deze richting in het zevende specialisatie jaar BSO heb ik tevens met glans mijn diploma gehaald. </p>
                     </article>
                 </div>
             </section>
-            <div class="firstline" id="about"></div>
-            <section id="aboutnrm">
-                <article class="about">
-                    <h1>ABOUT</h1>
-                </article>
-                <div class="secondbox">
-                    <article class="text"> 
-                        <h1>Meer uitleg</h1>
-                    </article>
-                </div>
-            </section>
-            <div class="secondline" id="projects"></div>
+            <div class="firstline" id="projects"></div>
             <section id="projectsnrm">
-                <article class="project">
+                <article class="projects">
                     <h1>PROJECTS</h1>
                 </article>
-                <div class="firstbox">
+                <div class="secondbox">
                     <article class="text"> 
                         <h1>Project voorstelling</h1>
                     </article>
                 </div>
             </section>
-            <div class="firstline" id="blog"></div>
+            <div class="secondline" id="blog"></div>
             <section id="blognrm">
                 <article class="blog">
                     <h1>BLOG</h1>
                 </article>
-                <div class="secondbox">
+                <div class="firstbox">
                     <article class="text"> 
                         <h1>Blogs worden hier geplaatst</h1>
                     </article>
                 </div>
             </section>
-            <div class="secondline" id="cv"></div>
+            <div class="firstline" id="cv"></div>
             <section id="cvnrm">
                 <article class="cv">
                     <h1>CV</h1>
                 </article>
-                <div class="firstbox">
-                    <article class="text"> 
-                        <h1>CV laten zien</h1>
-                    </article>
-                </div>
-            </section>
-            <div class="firstline" id="kennis"></div>
-            <section id="kennisnrm">
-                <article class="kennis">
-                    <h1>KENNIS</h1>
-                </article>
                 <div class="secondbox">
                     <article class="text"> 
-                        <h1>Belangrijkste kennis hier plaatsen</h1>
+                        <h1>CV + Kennis komt hier te staan!!!</h1>
                     </article>
                 </div>
             </section>
-            <div class="secondline" id="contact"></div>
+            <div class="secondline" id="referentie"></div>
+            <section id="referentienrm">
+                <article class="referentie">
+                    <h1>REFERENTIES</h1>
+                </article>
+                <div class="firstbox">
+                    <article class="text"> 
+                        <h1>Referenties tonen</h1>
+                    </article>
+                </div>
+            </section>
+            <div class="firstline" id="contact"></div>
             <section id="contactnrm">
                 <article class="contact">
                     <h1>CONTACT</h1>
                 </article>
-                <div class="firstbox">
+                <div class="secondbox">
                     <article class="text"> 
                         <h1>Contact formulier/Hoe contacteren</h1>
                     </article>
@@ -149,8 +139,10 @@
             });
             $('.pop').each(function(){
                 $(this).on('click', function(){
-                    $('#nav-toggle').toggleClass('active');
-                    $('.header').stop().slideToggle();
+                    if (window.matchMedia("(max-width: 1000px)").matches) {
+                        $('#nav-toggle').toggleClass('active');
+                        $('.header').stop().slideToggle();
+                    }
                 });
             });
         </script>

@@ -3,15 +3,11 @@
         font-size: 1.8rem;
     }
     .header {
-    width: 919px;
+    width: 865px;
         height: 0px;
     }
     #homelink{
         width: 75px;
-        font-size: 1.5rem;
-    }
-    #aboutlink {
-        width: 87px;
         font-size: 1.5rem;
     }
     #projectlink {
@@ -26,8 +22,8 @@
         width: 37px;
         font-size: 1.5rem;
     }
-    #kennislink {
-        width: 90px;
+    #referentielink {
+        width: 170px;
         font-size: 1.5rem;
    }
     #contactlink {
@@ -51,15 +47,11 @@
         float: right;
     }
     .header {
-    width: 809px;
+    width: 752px;
         height: 0px;
     }
     #homelink{
         width: 60px;
-        font-size: 1.2rem;
-    }
-    #aboutlink {
-        width: 70px;
         font-size: 1.2rem;
     }
     #projectlink {
@@ -74,8 +66,8 @@
         width: 30px;
         font-size: 1.2rem;
     }
-    #kennislink {
-        width: 75px;
+    #referentielink {
+        width: 135px;
         font-size: 1.2rem;
     }
     #contactlink {
@@ -114,6 +106,12 @@
     #home{
         height: 60px;
     }
+    .profiel {
+        float: none;
+        margin: auto;
+        height: 200px;
+        width: 200px;
+    }
     .firstline {
         height: 100.5px;
         background-color: #2F4F4F;
@@ -130,7 +128,19 @@
         display: block; 
         margin-left: auto;
     }
-    
+    .text {
+        font-size: 2.3rem;
+        margin-top: -30px
+    }
+    p {
+        font-size: 1.3rem;
+        width: 100%;
+        margin-top: 30px
+    }
+    .tussentitel {
+        width: 100%;
+        margin-bottom: 30px
+    }
     #homelink{
     width: auto;
         font-size: 2rem;
@@ -140,15 +150,6 @@
         float: none;
         margin-top: -2px
 
-    }
-    #aboutlink {
-    width: auto;
-        margin-top: 2px;
-        font-size: 2rem;
-        padding: 0px;
-        height: 0px;
-        border-bottom: 42px solid #5EFFA4;
-        float: none;
     }
     #projectlink {
         width: auto;
@@ -177,8 +178,9 @@
         border-bottom: 42px solid #5EFFA4;
         float: none;
     }
-    #kennislink {
-    width: auto;
+
+    #referentielink {
+        width: auto;
         margin-top: 2px;
         font-size: 2rem;
         padding: 0px;
