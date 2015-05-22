@@ -1,4 +1,7 @@
 /* html styles */
+html {
+    height: 100%
+}
 body {
     height: 100%;
     margin-left: 0%;
@@ -137,8 +140,8 @@ a {
 .home {
     width: 110px;
     background-color: darkgrey;
-    height: 0%;
-    border-right: 40px solid #769999;
+    height: 0px;
+    border-right: 40px solid #2F4F4F;
     border-bottom: 40px solid #5EFFA4;
     line-height: 40px;
     font-size: 1.7rem;
@@ -146,7 +149,7 @@ a {
     color: #174029;
 }
 #homenrm {
-    background-color: #769999;
+    background-color: #2F4F4F;
     width: 100%;
 }
 #home {
@@ -166,8 +169,8 @@ a {
 /* project page */
 .projects {
     width: 170px;
-    height: 0%;
-    border-right: 40px solid #2F4F4F;
+    height: 0px;
+    border-right: 40px solid #769999;
     border-bottom: 40px solid #5EFFA4;
     line-height: 40px;
     font-size: 1.7rem;
@@ -176,16 +179,24 @@ a {
     color: #174029;
 }
 #projectsnrm {
-    background-color: #2F4F4F;
+    background-color: #769999;
     margin-top: 50px;
     width: 100%;
+}
+.provoorstelling {
+    width: 315px;
+    height: 200px;
+    background-color: yellow;
+    margin-left: 60px;
+    float: left;
+    margin-top: 60px
 }
 
 /* blog page */
 .blog {
     width: 170px;
-    height: 0%;
-    border-right: 40px solid #769999;
+    height: 0px;
+    border-right: 40px solid #2F4F4F;
     border-bottom: 40px solid #5EFFA4;
     line-height: 40px;
     font-size: 1.7rem;
@@ -194,32 +205,40 @@ a {
     color: #174029;
 }
 #blognrm {
-    background-color: #769999;
+    background-color: #2F4F4F;
     margin-top: -74px;
     width: 100%;
+}
+.datumpost {
+    font-size: 1rem;
+    text-align: right;
+    margin-top: 30px;
+}
+.blogtitel {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    margin-top: 50px;
+}
+.blogfoto {
+    width: 60%;
+    margin-top: 15px;
+}
+.blogfoto2 {
+    width: 49%;
+    margin-top: 15px;
+}
+.uitlegfotoblog {
+    text-align: left;
+    width: 60%;
+    font-size: 1.1rem;
+    margin-top: 5px;
 }
 
 /* cv/kennis page */
 .cv{
     width: 55px;
-    height: 0%;
-    border-right: 40px solid #2F4F4F;
-    border-bottom: 40px solid #5EFFA4;
-    line-height: 40px;
-    font-size: 1.7rem;
-    margin-top: -50px;
-    position: static;
-    color: #174029;
-}
-#cvnrm {
-    background-color: #2F4F4F;
-    width: 100%;
-}
-
-/* referentie page */
-.referentie {
-    width: 230px;
-    height: 0%;
+    height: 0px;
     border-right: 40px solid #769999;
     border-bottom: 40px solid #5EFFA4;
     line-height: 40px;
@@ -228,16 +247,14 @@ a {
     position: static;
     color: #174029;
 }
-#referentienrm {
+#cvnrm {
     background-color: #769999;
-    width: 100%;
-    margin-top: -73px
 }
 
-/* contact page */
-.contact {
-    width: 165px;
-    height: 0%;
+/* referentie page */
+.referentie {
+    width: 230px;
+    height: 0px;
     border-right: 40px solid #2F4F4F;
     border-bottom: 40px solid #5EFFA4;
     line-height: 40px;
@@ -246,13 +263,45 @@ a {
     position: static;
     color: #174029;
 }
-#contactnrm {
+#referentienrm {
     background-color: #2F4F4F;
+    width: 100%;
+    margin-top: -73px
+}
+
+/* contact page */
+.contact {
+    width: 165px;
+    height: 0px;
+    border-right: 40px solid #769999;
+    border-bottom: 40px solid #5EFFA4;
+    line-height: 40px;
+    font-size: 1.7rem;
+    margin-top: -50px;
+    position: static;
+    color: #174029;
+}
+#contactnrm {
+    background-color: #769999;
     margin-top: -73px;
     width: 100%;
 }
 
 /* algemene opmaak */
+.hide {
+    display: none
+}
+.nietzienmaarwelzijn {
+    visibility: hidden;
+}
+.textlinks {
+    text-align: left;
+    width: 60%;
+    margin: auto
+}
+main {
+height: 100%
+}
 section {
     min-height: 100%;
     width: 100%;
@@ -260,7 +309,7 @@ section {
 .firstbox { 
     border-top: 3px solid #5EFFA4;      
     background-color: #2F4F4F;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
     color: #E1FFFB;
     margin-bottom: -48px
@@ -268,7 +317,7 @@ section {
 .secondbox {
     border-top: 3px solid #5EFFA4;      
     background-color: #769999;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
     color: #174029;
     margin-bottom: -48px;
@@ -307,7 +356,7 @@ p {
 footer {
     background-color: black;
     color: white;
-    margin-top: 2px;
+    margin-top: 7px;
     height: 60px;
     width: 100%;
 }
@@ -324,7 +373,8 @@ footer {
 .mobi-header {
     display: none;
     position: fixed;
-    margin: 15 auto 0 87%;
+    margin-top: 15px;
+    margin-left: 85%;
 }
 #nav-toggle { position: absolute; left: 90%; top: 30%; }
 

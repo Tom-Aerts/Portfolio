@@ -30,6 +30,11 @@
         width: 117px;
         font-size: 1.5rem;
     }
+    .provoorstelling {
+        width: 40%;
+        height: 400px;
+        margin-left: 80px;
+    }
     .footer {
         font-size: 1.8rem;
     }
@@ -197,6 +202,33 @@
         border-bottom: 42px solid #5EFFA4;
         float: none;
     }
+    .provoorstelling {
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+    }
+    .textlinks {
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .blogtitel {
+        width: 100%;
+        margin: auto;
+        text-align: left;
+        margin-top: 70px;
+    }
+    .blogfoto {
+        width: 100%;
+    }
+    .blogfoto2 {
+        width: 70%;
+    }
+.uitlegfotoblog {
+    text-align: left;
+    width: 100%;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
 }
 @media only screen and (max-width:900px) {
     
