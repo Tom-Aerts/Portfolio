@@ -186,10 +186,14 @@ a {
 .provoorstelling {
     width: 315px;
     height: 200px;
-    background-color: yellow;
-    margin-left: 60px;
     float: left;
-    margin-top: 60px
+}
+.thumbnail
+{
+float: left;
+width: 315px;
+border: 1px solid #000;
+margin: 0 15px 15px 50px;
 }
 
 /* blog page */
@@ -268,6 +272,29 @@ a {
     width: 100%;
     margin-top: -73px
 }
+.kleur {
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+    border-radius: 600px;
+    margin-left: 80px;
+    float: none;
+}
+.top {
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+    border-radius: 600px;
+    margin-left: 80px;
+    float: none;
+}
+.referentietext {
+    text-align: left;
+    width: 60%;
+    margin-left: 350px;
+    margin-top: -250px;
+    float: left;
+}
 
 /* contact page */
 .contact {
@@ -309,7 +336,7 @@ section {
 .firstbox { 
     border-top: 3px solid #5EFFA4;      
     background-color: #2F4F4F;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     color: #E1FFFB;
     margin-bottom: -48px
@@ -317,7 +344,7 @@ section {
 .secondbox {
     border-top: 3px solid #5EFFA4;      
     background-color: #769999;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     color: #174029;
     margin-bottom: -48px;
